@@ -1,0 +1,36 @@
+body{
+     background-color: #b2fff8;
+     color: darkcyan;
+     max-width: 920px;
+     margin-left: auto;
+     margin-right: auto;
+     font-family: "Work Sans", sans-serif;
+}
+h1{
+    font-size: 72px;
+    line-height: 100%;
+
+}
+h2{
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+p{
+    font-size: 16px;
+    text-align: justify;
+    
+
+}
+a{
+    text-decoration: none;
+    color: darkcyan;
+    border: 2px solid darkcyan;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+a:hover{
+    color: #b2fff8;
+    background-color: darkcyan;
+}
