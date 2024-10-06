@@ -1,14 +1,17 @@
 body{
-     background-color: #b2fff8;
-     color: darkcyan;
+     background-color: darkcyan;
+     color: #b2fff8;
      max-width: 920px;
      margin-left: auto;
      margin-right: auto;
      font-family: "Work Sans", sans-serif;
+     padding: 12px;
+     line-height: 1.6;
 }
 h1{
     font-size: 72px;
     line-height: 100%;
+    line-height: 1.2;
 
 }
 h2{
@@ -25,12 +28,19 @@ p{
 }
 a{
     text-decoration: none;
-    color: darkcyan;
-    border: 2px solid darkcyan;
+    color:  #b2fff8;
+    border: 2px solid  #b2fff8;
     border-radius: 8px;
-    transition: 0.5s;
+    transition: background-color 0.5s, color 0.5s;
 }
 a:hover{
-    color: #b2fff8;
-    background-color: darkcyan;
+    color: darkcyan;
+    background-color: #b2fff8;
+}
+h3{
+    font-size: 24px;
+}
+ul{
+    padding-left: 24px;
+
 }
